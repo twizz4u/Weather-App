@@ -44,7 +44,7 @@ const Content = (prop) => {
         setError(false);
         setloadState(true);
         const response = await fetch(
-          `http://api.weatherapi.com/v1/forecast.json?key=ee1530a3a64c4977870124025232209&q=${currentLocation.latitude},${currentLocation.longitude}&days=3&aqi=no&alerts=no`
+          `https://api.weatherapi.com/v1/forecast.json?key=ee1530a3a64c4977870124025232209&q=${currentLocation.latitude},${currentLocation.longitude}&days=3&aqi=no&alerts=no`
         );
 
         if (response.ok) {
