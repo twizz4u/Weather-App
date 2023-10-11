@@ -23,7 +23,7 @@ const MainNavigation = (prop) => {
       try {
         loadHandler(false, true, "");
         const response = await fetch(
-          `https://api.weatherapi.com/v1/forecast.json?key=ee1530a3a64c4977870124025232209&q=${e.target.search.value}&days=3&aqi=no&alerts=no`
+          `http://api.weatherapi.com/v1/forecast.json?key=ee1530a3a64c4977870124025232209&q=${e.target.search.value}&days=3&aqi=no&alerts=no`
         );
         console.log(response);
 
