@@ -1,0 +1,61 @@
+.content {
+  width: 100%;
+}
+
+.content div {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h4 {
+  margin-bottom: 0.4rem;
+}
+
+.content div ul {
+  list-style: none;
+  /* width: 30rem; */
+}
+
+.content div li {
+  margin-bottom: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeIntervalBox {
+  max-width: 20rem;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.content .intervalImageBox {
+  display: flex;
+  justify-content: center;
+}
+
+.content h4 {
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  .timeIntervalBox {
+    max-width: 32rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .timeIntervalBox {
+    max-width: 26rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .timeIntervalBox {
+    max-width: 32rem;
+    width: 100%;
+  }
+}

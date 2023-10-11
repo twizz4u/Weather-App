@@ -1,0 +1,57 @@
+.dayBox {
+  max-width: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  gap: 4rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+}
+
+.date {
+  margin-left: auto;
+}
+
+.dayBox .currentBox ul {
+  list-style: none;
+  margin-top: 0.4rem;
+}
+
+.dayBox h3 {
+  margin-bottom: 0.4rem;
+}
+
+.condition {
+  font-weight: bold;
+}
+.currentBox {
+  width: 20rem;
+}
+
+.dayBox .currentBox li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dayBox .currentBox span {
+  flex-basis: 50%;
+}
+
+.dayBoxData {
+  flex-grow: 1;
+}
+
+.dayBoxDataImg {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+}
